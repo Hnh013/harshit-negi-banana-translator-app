@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@400;700&display=swap');
+
+:root {
+    --primary-color: rgb(170, 242, 76);
+    --secondary-color: black;
+    --text-color: #333333;
+}
+  
+body {
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Recursive', sans-serif;
+  }
+
+.nav-bar {
+    background-color: var(--primary-color);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1 , h4 {
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+main {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-text-area {
+    opacity: 0.8;
+    box-sizing: border-box;
+    display: block;
+    width: 60vw;
+    height: 20vh;
+    font-size: large;
+    margin: auto;
+}
+
+.btn-container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.btn-translate {
+    background-color: var(--primary-color);
+    cursor: pointer;
+    border-radius: 500px;
+}
+
+.label-container {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.output-text-area {
+    opacity: 0.8;
+    background: white;
+    box-sizing: border-box;
+    width: 70vw;
+    height: 15vh;
+    border: 1px solid var(--secondary-color);
+    margin: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.footer-div {
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    padding: 5px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+  
